@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			button{
+				border: none;
+				background: rgba(211,5,77,0.5);	
+				width: 100px;
+				height: 61.8px;
+				color: white;
+				float: left;
+			}
+			body{
+				background: url(img/bg1.jpg) no-repeat;
+				background-size: 100% !important;
+			}
+			#box{
+				display: none;
+				background: rgba(255,255,255,0.5);
+				width: 304px;
+				height: 185px;
+				float: left;
+				border-radius: 5px;
+				overflow: hidden;
+			}
+			#box img{
+				width: 150px;
+				height: 90px;
+				float: left;
+			}
+			#bg1{
+				padding-right: 4px;
+			}
+			#bg3{
+				padding-top: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="btn">点击换肤</button>
+		<div id="box">
+			<img src="img/bg1.jpg" id="bg1"/>
+			<img src="img/bg2.jpg" id="bg2"/>
+			<img src="img/bg3.jpg" id="bg3"/>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/cookie.js"></script>
+<script type="text/javascript" src="js/changeSkin.js"></script>
